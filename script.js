@@ -9,6 +9,9 @@ function makeGrid(size) {
         for (j = 0; j < size; j++) {
             let column = document.createElement('div')
             column.classList = "column"
+            column.addEventListener('mouseenter', () => {
+                column.style.backgroundColor = 'black';
+            })
             row.appendChild(column)
         }
         
@@ -16,4 +19,6 @@ function makeGrid(size) {
 
 
 }
+
+
 makeGrid(16)
