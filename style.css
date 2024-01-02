@@ -1,16 +1,10 @@
-.grid { 
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.row {
+.row { 
     display: flex;
-    gap: 4px;
-    margin-bottom: 4px;
 }
 
 .column {
-    background-color: lightgray;
-    padding: 1rem 0;
-    flex: 1;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: rgb(220, 197, 197);
 }
